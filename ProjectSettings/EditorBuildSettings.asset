@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LearnMaterials 1/LearnScene 1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/LearnMaterials 1/KovalenkoCouch.unity
+    guid: 942fe8d2abbfca3498f25fea6382cfc7
+  - enabled: 1
+    path: Assets/LearnMaterials 1/KovalenkoTable.unity
+    guid: bd9651a5373b5b248bd539c742615fcf
+  - enabled: 1
+    path: Assets/LearnMaterials 1/PresnovScene.unity
+    guid: ae1e23142197b9149bb89098bd632ae1
+  - enabled: 1
+    path: Assets/LearnMaterials 1/RuslanScene.unity
+    guid: 868cd1eb02b809340b193ef683c59a09
   m_configObjects: {}

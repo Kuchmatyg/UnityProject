@@ -73,5 +73,9 @@ ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
 disabledIndexers = ""
 minIndexVariations = 2
+<<<<<<< HEAD
 findProviderIndexHelper = true
 
+=======
+findProviderIndexHelper = true
+>>>>>>> origin/markidi-scene
