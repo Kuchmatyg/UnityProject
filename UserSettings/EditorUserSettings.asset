@@ -6,29 +6,15 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-<<<<<<< HEAD
       value: 55050c025205585a5f0d0f7b407b0c444016192f7a7e7569757a1b6ab0b73661
-=======
-<<<<<<< HEAD
       value: 5b070c0501040c595d5c0e7a407a0c44461549737f2d2066757a1e66bbe16461
-=======
-      value: 560903045d01590e54595d764122094441164a797b7172632b2a4b32b4e2316f
->>>>>>> 48ef34b622cfd49153fadd5390713b1d05235632
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 0506565055515f095a575d2315730f444315487a282c74672f79456ae4b9316f
       flags: 0
     RecentlyUsedSceneGuid-2:
-<<<<<<< HEAD
-=======
-      value: 025405035706580f5f5f5575127a0e444f151a7275787f682f2d4b60b0e13169
-      flags: 0
-    RecentlyUsedScenePath-0:
-      value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
->>>>>>> origin/markidi-scene
       flags: 0
     RecentlyUsedSceneGuid-1:
->>>>>>> 48ef34b622cfd49153fadd5390713b1d05235632
       value: 5a050600000d0d090c0c0e2413220c444f4f1e78792e23317b7a4561e1e6376f
       flags: 0
     RecentlyUsedSceneGuid-3:
@@ -51,15 +37,8 @@ EditorUserSettings:
   m_VCDebugCmd: 0
   m_VCDebugOut: 0
   m_SemanticMergeMode: 2
-<<<<<<< HEAD
   m_DesiredImportWorkerCount: 3
-=======
-<<<<<<< HEAD
   m_DesiredImportWorkerCount: 3
-=======
-  m_DesiredImportWorkerCount: 2
->>>>>>> origin/markidi-scene
->>>>>>> 48ef34b622cfd49153fadd5390713b1d05235632
   m_StandbyImportWorkerCount: 2
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1
