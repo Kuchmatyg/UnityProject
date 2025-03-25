@@ -59,4 +59,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Игнорировать файлы макетов редактора Unity
-/UserSettings/
+# /UserSettings/
