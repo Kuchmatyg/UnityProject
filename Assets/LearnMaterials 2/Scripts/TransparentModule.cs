@@ -19,6 +19,7 @@ public class TransparentModule : MonoBehaviour
         toDefault = false;
     }
 
+    [ContextMenu("Изменить прозрачность")]
     public void ActivateModule()
     {
         float target = toDefault ? defaultAlpha : 0;
