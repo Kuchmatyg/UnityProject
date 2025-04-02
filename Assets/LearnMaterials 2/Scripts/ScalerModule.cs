@@ -24,7 +24,7 @@ public class ScalerModule : MonoBehaviour
         toDefault = false;
     }
 
-    [ContextMenu("Уеличить объект")]
+    [ContextMenu("Увеличить объект")]
     public void ActivateModule()
     {
         OnValidate();

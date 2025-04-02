@@ -19,16 +19,21 @@ public class GameObjectActivator : MonoBehaviour
         foreach (var item in targets)
         {
             item.defaultValue = item.targetGO.activeSelf;
+            Debug.Log($"defaultValue = {item.defaultValue}");
         }
     }
 
-    [ContextMenu("PISYA")]
+    [ContextMenu("Переключить объекты")]
     public void ActivateModule()
     {
+        ValidateTargets();
         SetStateForAll();
     }
+
+    [ContextMenu("Переключить в состояние по умолчанию")]
     public void ReturnToDefaultState()
     {
+        ValidateTargets();
         foreach (var item in targets)
         {
             item.targetState = item.defaultValue;
@@ -52,10 +57,22 @@ public class GameObjectActivator : MonoBehaviour
         }
     }
 
+    private void ValidateTargets()
+    {
+        for (int i = targets.Count - 1; i >= 0; i--)
+        {
+            if (targets[i] == null || targets[i].targetGO == null)
+            {
+                Debug.LogWarning($"Элемент {i} равен null и будет удален", this);
+                targets.RemoveAt(i);
+            }
+        }
+    }
+
     #region Материал ещё не изучен
     private void OnDrawGizmos()
     {
-        if(debug)
+        if (debug)
         {
             Gizmos.color = Color.gray;
             Gizmos.DrawSphere(transform.position, 0.3f);

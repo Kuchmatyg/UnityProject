@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SanpleScriptManager : MonoBehaviour
+public class SampleScriptManager : MonoBehaviour
 {
     [Tooltip("Список объектов, наследумые SampleScript")]
     [SerializeField] 
